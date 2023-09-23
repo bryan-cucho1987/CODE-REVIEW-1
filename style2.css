@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+body {
+    font-family: Arial, sans-serif;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+}
+
+.miniheader ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 10px;
+    padding: 0;
+}
+
+.miniheader ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.miniheader ul img {
+    width: 20px;
+    padding-left: 10 px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    padding-top: 10px;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+.footer ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    border-right: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 30px;
+
+}
+
+.logo-footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.logo-footer ul li {
+    margin: 0 10px;
+}
+
+.logo-footer li img {
+    width: 10px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
