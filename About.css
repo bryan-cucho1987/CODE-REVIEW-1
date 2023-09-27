@@ -1,13 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    align-items: center;
 }
 
 header {
@@ -18,6 +15,26 @@ header {
 
 h1 {
     font-family: 'Sacramento', cursive;
+}
+
+
+.about {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.background-container img {
+    width: 40%;
+    height: 40%;
+    align-self: center;
+}
+
+
+.background-container p {
+    text-align: center;
+    display: flex;
+    justify-content: start;
+    align-items: center;
 }
 
 .miniheader ul {
@@ -39,54 +56,6 @@ h1 {
     padding-left: 10 px;
 }
 
-h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-h2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-h3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-h4 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.ingredients ul li {
-    text-align: center;
-}
-
-.instructions ol li {
-    text-align: center;
-
-}
-
-.container {
-    width: 80%;
-    margin: auto;
-    padding-bottom: 15px;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
-
-}
 
 
 .footer {
