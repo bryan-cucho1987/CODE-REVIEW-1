@@ -7,26 +7,99 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+
+}
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px;
+    background-color: #d35400;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+.miniheader ul li i {
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.miniheader ul li i:hover {
+    color: #f1c40f;
+}
+
+.miniheader ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+
+}
+
+.miniheader ul li a:hover {
+    color: #f1c40f;
+}
+
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+
 
 h1 {
     font-family: 'Sacramento', cursive;
+
+}
+
+h1.about {
+    font-size: 2.5em;
+    text-align: center;
+    color: #d35400;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
 }
 
 
-.about {
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
+.background-container {
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .background-container img {
     width: 40%;
     height: 40%;
     align-self: center;
+
+}
+
+.chef-pic {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -37,18 +110,28 @@ h1 {
     align-items: center;
 }
 
+p {
+    font-size: 1.1em;
+    text-align: justify;
+}
+
+p::first-letter {
+    font-size: 1.5em;
+    color: #e74c3c;
+}
+
+.background-container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .miniheader ul {
     display: flex;
     justify-content: space-between;
     list-style: none;
     gap: 10px;
     padding: 0;
-}
-
-.miniheader ul li a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
 }
 
 .miniheader ul img {

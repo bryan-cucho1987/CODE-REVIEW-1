@@ -8,30 +8,109 @@
 body {
     font-family: Arial, sans-serif;
     align-items: center;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px;
+    background-color: #d35400;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+
 }
 
 h1 {
     font-family: 'Sacramento', cursive;
+    font-size: 2.5em;
 }
 
 .miniheader ul {
+    margin-top: 10px;
     display: flex;
     justify-content: space-between;
     list-style: none;
-    gap: 10px;
-    padding: 0;
+    gap: 20px;
+
+}
+
+.miniheader ul li {
+    display: inline;
 }
 
 .miniheader ul li a {
     text-decoration: none;
-    color: black;
     font-weight: bold;
+    color: #fff;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.miniheader ul li a:hover {
+    color: #f1c40f;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h2,
+h3,
+h4 {
+    font-family: 'Georgia', serif;
+    color: #d35400;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+h4 {
+    font-size: 1.2em;
+    text-align: center;
+    color: #e67e22;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.miniheader ul li i {
+    font-size: 1.5em;
+    color: #fff;
+    cursor: pointer;
+    transition: color 0.3s ease;
 }
 
 .miniheader ul img {
@@ -39,7 +118,7 @@ h1 {
     padding-left: 10 px;
 }
 
-h1 {
+/* h1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,9 +142,9 @@ h4 {
     justify-content: center;
     align-items: center;
 
-}
+} */
 
-.ingredients ul li {
+/* .ingredients ul li {
     text-align: center;
 }
 
@@ -86,15 +165,41 @@ img {
     padding-top: 10px;
     padding-bottom: 10px;
 
+} */
+p {
+    font-size: 1.1em;
+    text-align: justify;
+    margin: 20px 0;
 }
 
+/* Ingredients and Instructions Styles */
+.ingredients,
+.instructions {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.ingredients ul,
+.instructions ol {
+    padding-left: 20px;
+}
+
+.ingredients ul li,
+.instructions ol li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
 
 .footer {
     background-color: black;
     color: white;
     text-decoration: none;
     list-style: none;
-    padding-top: 10px;
+    padding-top: 10px 0;
 }
 
 .footer ul {
